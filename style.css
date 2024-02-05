@@ -111,13 +111,8 @@ text-decoration: none;
 }
 .MySkills{
     background-color: var(--SECOND);
-    width: 100%;
-    height: 900px;
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 40px ;
-    justify-content: center;
-    
+    margin-top: 40px;
+    padding: 16px 40px;
 }
 .Works{
     background-color: var(--SECOND);   
@@ -135,7 +130,7 @@ text-decoration: none;
 .Reviews{
     background-color: var(--SECOND);
     width: 100%;
-    height: 900px;   
+    height: 900px;
     display: flex;
     flex-wrap: nowrap;
     margin-top: 40px ;
@@ -184,12 +179,83 @@ text-decoration: none;
     padding-left: 60px;
     font-size: 40px;
 }
+
+.amel-list {
+    padding-left: 100px;
+}
+
 .amel{
-    padding-left: 85px;
     font-size: 38px;
     padding-top: 24px;
-
 }
+
+.skills_wrapper {
+    margin: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 50px;
+    row-gap: 25px;
+}
+
+.skill {
+    background: var(--LINE2);
+    border-radius: 20px;
+    padding: 10px;
+    color: var(--TITLE);
+    font-family: 'Montserrat Medium';
+    font-size: 34px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill:nth-child(3n + 1) {
+    grid-column: 1/2;
+}
+
+.skill:nth-child(3n) {
+    grid-column: 2/3;
+}
+
+.skill:nth-child(3n + 2) {
+    grid-column: 3/4;
+}
+
+.skills_other {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: var(--TITLE);
+    font-family: 'Montserrat Medium';
+    font-size: 34px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.skills_failed {
+    margin: 60px 0;
+    color: var(--TITLE);
+    font-family: 'Montserrat Medium';
+    font-size: 34px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: right;
+}
+
+.line {
+    position: relative;
+}
+
+.line::before{
+    content: '';
+    background-color: var(--LINE2);
+    display: block;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    margin-left: -20px;
+}
+
 .bdel{
     color: var(--TITLE);
     font-size: 38px;
@@ -197,7 +263,9 @@ text-decoration: none;
     font-family: 'Cabin';
     text-align: center;
 }
+
 .fimg{
     display: flex;
     gap: 250px;
 }
+
