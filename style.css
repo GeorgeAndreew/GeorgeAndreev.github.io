@@ -40,7 +40,17 @@ footer{
     align-items: center;    
     bottom: 0;
     margin-top: 20px;
-    padding: 45px 60px;    
+    padding: 45px 60px; 
+    gap: 20px;   
+}
+.footnav{
+    gap:274px;
+    left: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
 }
 .navigation{    
     gap:144px;
@@ -105,13 +115,17 @@ text-decoration: none;
     padding: 16px 40px;
 }
 .Works{
-    background-color: var(--SECOND);
-    width: 100%;
-    height: 900px;   
-    display: flex;
-    flex-wrap: nowrap;
+    background-color: var(--SECOND);   
     margin-top: 40px ;
 
+}
+.Works2{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 90px;
 }
 .Reviews{
     background-color: var(--SECOND);
@@ -149,7 +163,7 @@ text-decoration: none;
     font-weight: 500;
     letter-spacing: 5.4px;
     text-transform: uppercase;
-    text-align: center;
+    padding-left: 30px;
 }
 .Title4{
     color: var(--TITLE);
@@ -159,6 +173,7 @@ text-decoration: none;
     font-weight: 500;
     letter-spacing: 5.4px;
     text-transform: uppercase;
+    padding-left: 40px;
 }
 .amt{
     padding-left: 60px;
@@ -240,3 +255,17 @@ text-decoration: none;
     position: absolute;
     margin-left: -20px;
 }
+
+.bdel{
+    color: var(--TITLE);
+    font-size: 38px;
+    padding-top: 24px;    
+    font-family: 'Cabin';
+    text-align: center;
+}
+
+.fimg{
+    display: flex;
+    gap: 250px;
+}
+
