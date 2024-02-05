@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root{
     --TITLE: #FFFFFF;
@@ -18,6 +19,7 @@ body{
 header{
     width: 100%;
     color: var(--TITLE);
+    background-color: var(--SECOND);
     font-family: 'Cabin';
     display: flex;
     justify-content: space-between;
@@ -25,6 +27,19 @@ header{
     position:fixed;
     top: 0;
     padding: 45px 60px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    color: var(--TITLE);
+    background-color: var(--SECOND);
+    font-family: 'Cabin';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    bottom: 0;
+    margin-top: 20px;
+    padding: 45px 60px;    
 }
 .navigation{    
     gap:144px;
@@ -37,10 +52,123 @@ header{
     font-size: 48px;
     font-weight: 400;
     margin: 0;
+    background-color: var(--SECOND);
 }
 .hel{
 font-size: 28px;
 font-weight: 400;
 color: var(--TITLE);
 text-decoration: none;
+}
+.fel{
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--TXTSEC);
+
+}
+
+.Start{
+    width: 100%;
+    height: 790px;
+    color: var(--TITLE);
+    background-color: var(--TXTSEC);
+    font-family: 'Cabin';
+    display: flex;
+    flex-direction: column;
+}
+.AboutMe{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 40px 40px;
+    justify-content: center;
+    gap: 50px;
+}
+.Me{
+    width: 735px;
+    height: 860px;
+    border-radius: 26px;
+    color: var(--TITLE);
+    background-color: var(--SECOND);
+    font-family: 'Cabin';
+    flex-direction: column;
+}
+.AboutMeImg{
+    background-color: #BB6D1D;
+    width: 735px;
+    height: 860px;
+    border-radius: 26px;
+}
+.MySkills{
+    background-color: var(--SECOND);
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px ;
+    justify-content: center;
+    
+}
+.Works{
+    background-color: var(--SECOND);
+    width: 100%;
+    height: 900px;   
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px ;
+
+}
+.Reviews{
+    background-color: var(--SECOND);
+    width: 100%;
+    height: 900px;   
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px ;
+}
+.Title{
+    padding-top: 80px;
+    padding-left: 30px;
+    color: var(--TITLE);
+    font-family: 'Bungee';
+    font-size: 96px;
+    font-weight: 400;
+    transform: rotate(-1deg);
+}
+.Title2{
+    color: var(--TITLE);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+    margin-left: 210px;
+}
+.Title3{
+    color: var(--TITLE);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+}
+.Title4{
+    color: var(--TITLE);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+}
+.amt{
+    padding-left: 60px;
+    font-size: 40px;
+}
+.amel{
+    padding-left: 85px;
+    font-size: 38px;
+    padding-top: 24px;
+
 }
