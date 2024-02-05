@@ -26,6 +26,7 @@ header{
     align-items: center;    
     position:fixed;
     top: 0;
+    z-index: 1;
     padding: 45px 60px;
 }
 footer{
@@ -133,6 +134,7 @@ text-decoration: none;
     font-size: 96px;
     font-weight: 400;
     transform: rotate(-1deg);
+    width: fit-content;
 }
 .Title2{
     color: var(--TITLE);
