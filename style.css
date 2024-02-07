@@ -113,10 +113,12 @@ text-decoration: none;
     background-color: var(--SECOND);
     margin-top: 40px;
     padding: 16px 40px;
+    font-family: 'Cabin';
 }
 .Works{
     background-color: var(--SECOND);   
     margin-top: 40px ;
+    font-family: 'Cabin';
 
 }
 .Works2{
@@ -128,12 +130,38 @@ text-decoration: none;
     gap: 90px;
 }
 .Reviews{
-    background-color: var(--SECOND);
+    background-color: var(--LINE2);
+    opacity: 0.92;
     width: 100%;
-    height: 900px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
     margin-top: 40px ;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.Review{
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 903px;
+    padding: 20px 20px;
+    font-family: 'Cabin';
+    background-color: var(--TXTSEC);
+    border-radius: 30px;
+}
+.Review2{
+    margin-left: 60.5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 903px;
+    padding: 20px 20px;
+    font-family: 'Cabin';
+    background-color: var(--TXTSEC);
+    border-radius: 30px;   
 }
 .Title{
     padding-top: 80px;
@@ -195,6 +223,7 @@ text-decoration: none;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     column-gap: 50px;
     row-gap: 25px;
+    font-family: 'Cabin';
 }
 
 .skill {
@@ -209,6 +238,7 @@ text-decoration: none;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: 'Cabin';
 }
 
 .skill:nth-child(3n + 1) {
@@ -231,6 +261,7 @@ text-decoration: none;
     font-family: 'Montserrat Medium';
     font-size: 34px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Cabin';
 }
 
 .skills_failed {
@@ -240,6 +271,7 @@ text-decoration: none;
     font-size: 34px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: right;
+    font-family: 'Cabin';
 }
 
 .line {
@@ -268,4 +300,12 @@ text-decoration: none;
     display: flex;
     gap: 250px;
 }
-
+.author{
+    font-size: 46px;
+    padding-left: 40px;
+}
+.comment{
+    font-size: 32px;
+    color: var(--TITLE);
+    padding-left: 40x;
+}
