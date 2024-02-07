@@ -44,8 +44,6 @@ footer{
     gap: 20px;   
 }
 .footnav{
-    gap:274px;
-    left: 20px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -53,7 +51,7 @@ footer{
     width: 100%;
 }
 .navigation{    
-    gap:144px;
+    gap: 244px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -145,19 +143,19 @@ text-decoration: none;
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    width: 903px;
+    width: 50%;
     padding: 20px 20px;
     font-family: 'Cabin';
     background-color: var(--TXTSEC);
     border-radius: 30px;
 }
 .Review2{
-    margin-left: 60.5%;
+    margin-left: 49%;
     margin-top: 40px;
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    width: 903px;
+    width: 50%;
     padding: 20px 20px;
     font-family: 'Cabin';
     background-color: var(--TXTSEC);
@@ -298,7 +296,7 @@ text-decoration: none;
 
 .fimg{
     display: flex;
-    gap: 250px;
+    gap: 30%;
 }
 .author{
     font-size: 46px;
@@ -308,4 +306,8 @@ text-decoration: none;
     font-size: 32px;
     color: var(--TITLE);
     padding-left: 40x;
+}
+.link_name{
+    position: relative;
+    top: -150px;
 }
