@@ -80,7 +80,6 @@ text-decoration: none;
     width: 100%;
     height: 790px;
     color: var(--TITLE);
-    background-color: var(--TXTSEC);
     font-family: 'Cabin';
     display: flex;
     flex-direction: column;
@@ -110,7 +109,6 @@ text-decoration: none;
 .MySkills{
     background-color: var(--SECOND);
     margin-top: 40px;
-    padding: 16px 40px;
     font-family: 'Cabin';
 }
 .Works{
@@ -125,7 +123,7 @@ text-decoration: none;
     align-items: center;
     justify-content: center;
     padding: 50px 0px;
-    gap: 90px;
+    gap: 10%;
 }
 .Reviews{
     background-color: var(--LINE2);
@@ -285,7 +283,11 @@ text-decoration: none;
     position: absolute;
     margin-left: -20px;
 }
-
+.bd1, .bd2, .bd3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .bdel{
     color: var(--TITLE);
     font-size: 38px;
