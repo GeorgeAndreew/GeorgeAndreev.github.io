@@ -17,6 +17,7 @@ body{
     background-color: var(--MAIN);
 }
 header{
+    z-index: 2;
     width: 100%;
     color: var(--TITLE);
     background-color: var(--SECOND);
@@ -26,7 +27,6 @@ header{
     align-items: center;    
     position:fixed;
     top: 0;
-    z-index: 1;
     padding: 45px 60px;
 }
 footer{
@@ -83,7 +83,20 @@ text-decoration: none;
     font-family: 'Cabin';
     display: flex;
     flex-direction: column;
+    position: relative;
+    background: #1f272f;
 }
+.js-background{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
 .AboutMe{
     display: flex;
     flex-wrap: nowrap;
@@ -295,6 +308,38 @@ text-decoration: none;
     font-family: 'Cabin';
     text-align: center;
 }
+.Works2 iframe {
+    display: none;
+
+}
+.active iframe {
+    position: fixed;
+    display: block;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    z-index: 5;
+}
+.active.cross{
+    display: block;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    fill: white;
+    stroke: #191F22;
+    color: black;
+    z-index: 6;
+}
+.active.cross:hover{
+    fill: #191F22;
+    stroke: none;
+}
+.cross{
+    display: none;
+}
 
 .fimg{
     display: flex;
@@ -312,4 +357,8 @@ text-decoration: none;
 .link_name{
     position: relative;
     top: -150px;
+}
+
+.active{
+
 }

@@ -5,10 +5,11 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="JS/p5.min.js"></script>
+  <script src="JS/vanta.trunk.js"></script>
 </head>
 
 <body>
-  <script src="script.js"></script>
   <header>
     <h2 class="ht">Front-end dev</h2>
     <div class="navigation">
@@ -30,7 +31,7 @@
         <li class="amel">Pay to</li>
         <li class="amel">Recommend to your friends</li>
       </ul>
-
+      <div class="js-background"></div>
     </div>
     <div class="AboutMe">
       <a name="about" class="link_name"></a>
@@ -72,17 +73,23 @@
       <a name="jobs" class="link_name"></a>
       <h2 class="Title4">Works</h2>
       <div class="Works2">
-        <div class="bd1">
+        <svg class ="cross js-close" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 32 32">
+          <path d="M18.8,16l5.5-5.5c0.8-0.8,0.8-2,0-2.8l0,0C24,7.3,23.5,7,23,7c-0.5,0-1,0.2-1.4,0.6L16,13.2l-5.5-5.5  c-0.8-0.8-2.1-0.8-2.8,0C7.3,8,7,8.5,7,9.1s0.2,1,0.6,1.4l5.5,5.5l-5.5,5.5C7.3,21.9,7,22.4,7,23c0,0.5,0.2,1,0.6,1.4  C8,24.8,8.5,25,9,25c0.5,0,1-0.2,1.4-0.6l5.5-5.5l5.5,5.5c0.8,0.8,2.1,0.8,2.8,0c0.8-0.8,0.8-2.1,0-2.8L18.8,16z"/>
+        </svg>
+        <div class="bd1 js-scale-img">
           <img src="Ellipse1.png">
           <p class="bdel">Online Shop</p>
+          <iframe src="https://www.google.ru/?hl=ru"></iframe>
         </div>
-        <div class="bd2">
+        <div class="bd2 js-scale-img">
           <img src="Ellipse2.png">
           <p class="bdel">Blog</p>
+          <iframe src="https://www.google.ru/?hl=ru"></iframe>
         </div>
-        <div class="bd2">
+        <div class="bd3 js-scale-img">
           <img src="Ellipse3.png">
           <p class="bdel">Business Card</p>
+          <iframe src="https://www.google.ru/?hl=ru"></iframe>
         </div>
       </div>
     </div>
@@ -124,28 +131,23 @@
       <p class="fel">georgy2008georgy@gmail.com</p>
     </div>
   </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-<script>
-var setVanta = ()=>{
-if (window.VANTA) window.VANTA.BIRDS({
-  el: ".Start",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00
-})
-}
-_strk.push(function() {
-  setVanta()
-  window.edit_page.Event.subscribe( "Page.beforeNewOneFadeIn", setVanta )
-})
-</script>
-
+  <script>
+    VANTA.TRUNK({
+      el: ".js-background",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 100.00,
+      minWidth: 100.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xc87820,
+      backgroundColor: 0x1f272f,
+      spacing: 3.50,
+      chaos: 1.20
+    })
+  </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
