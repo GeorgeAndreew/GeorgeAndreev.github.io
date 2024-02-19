@@ -249,7 +249,6 @@ text-decoration: none;
     text-align: center;
     font-family: 'Cabin';
 }
-
 .skill:nth-child(3n + 1) {
     grid-column: 1/2;
 }
@@ -359,6 +358,3 @@ text-decoration: none;
     top: -150px;
 }
 
-.active{
-
-}

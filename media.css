@@ -1,109 +1,246 @@
-  @media screen and (max-width: 1400px) {
-    footer {
-      padding: 20px 15px;
-    }
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap; 
-      }
-      
-      .ht {
-        width: 100%; 
-      }
-  
-    .navigation,
-    .footnav {
-      gap: 20px;
-    }
-    .amt-line{
-        left:5%
-    }
-    .Title{
-      line-height: 1;
-      text-align: center;
-    }
-    .Title2{
-      padding-left: 2%;
-    }    
-    .Title2,
-    .Title3,
-    .Title4 {
-      margin-left: 15px;
-    }
-    .Start {
-        padding-top: 170px;
-        width: 100%;
-        height: 1000px; 
-        color: var(--TITLE);
-        font-family: 'Cabin';
-        display: flex;
-        flex-direction: column;
-        background-color: transparent;
-      }   
-    .Start .hel {
-        font-size: 48px;
-    }
-    .js-background{
-      left: 0;
-      z-index: -1;
-    }
-    .amt {
-      padding-left: 40px;
-    }
-
-    .Works2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 0px;
-    gap: 10%;
-    }
-
-    .Works2 img {
-    width: 45%; 
-    }
-
-
-    .AboutMe {
-      flex-direction: column;
+@media screen and (max-width: 1300px) {
+  .skill {
+    grid-column: 1/2 !important;
+  }
+  footer {
+    padding: 20px 15px;
+    flex-direction: column;
+  }
+  header {
+      display: flex;
+      justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap; 
     }
-  
-    .AboutMeImg,
-    .Me {
+    
+    .ht {
+      width: 100%; 
+    }
+
+  .navigation,
+  .footnav {
+    gap: 5%;
+  }
+  .amt-line{
+      left:5%
+  }
+  .Title{
+    line-height: 1;
+    text-align: center;
+  }
+  .Title2{
+    padding-left: 2%;
+  }    
+  .Title2,
+  .Title3,
+  .Title4 {
+    margin-left: 15px;
+  }
+  .Start {
+      padding-top: 170px;
       width: 100%;
+      height: 1000px; 
+      color: var(--TITLE);
+      font-family: 'Cabin';
+      display: flex;
+      flex-direction: column;
+      background-color: transparent;
+    }   
+  .Start .hel {
+      font-size: 48px;
+  }
+  .js-background{
+    left: 0;
+    z-index: -1;
+  }
+  .amt {
+    padding-left: 40px;
+  }
+
+  .Works2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+  gap: 10%;
+  }
+
+  .Works2 img {
+  width: 45%; 
+  }
+
+
+  .AboutMe {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .AboutMeImg,
+  .Me {
+    width: 100%;
+  }
+
+  .skills_wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+
+  .skill {
+    font-size: 24px;
+  }
+
+  .skills_other {
+    gap: 20px;
+  }
+
+  .skills_failed {
+    text-align: center;
+  }
+
+  .author,
+  .comment {
+    font-size: 28px;
+  }
+  .fimg img, svg{
+    height: 40px;
+  }
+  .fel{
+    font-size: 20px;
+    padding-top: 65px;
+  }
+
+}
+
+
+@media screen and (max-width: 450px) {
+  footer {
+    padding: 10px 7px;
+    height: auto;
+  }
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; 
     }
-  
-    .skills_wrapper {
-      grid-template-columns: 1fr;
-      row-gap: 15px;
+    
+    .ht {
+      width: 100%; 
     }
-  
-    .skill {
-      font-size: 24px;
-    }
-  
-    .skills_other {
-      gap: 20px;
-    }
-  
-    .skills_failed {
-      text-align: center;
-    }
-  
-    .author,
-    .comment {
-      font-size: 28px;
-    }
-    .fimg img, svg{
-      height: 40px;
-    }
-    .fel{
-      font-size: 20px;
-      padding-top: 65px;
-    }
+  .navigation{
+    gap: 5%;
 
   }
+  .footnav {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .amt-line{
+    left:5%
+  }
+  .Title{
+    line-height: 1;
+    text-align: center;
+    font-size: 60px;
+  }
+  .Title2{
+    padding-left: 2%;
+  }    
+  .Title2,
+  .Title3,
+  .Title4 {
+    margin-left: 5%;
+  }
+  .Start {
+      padding-top: 170px;
+      width: 100%;
+      height: 1000px; 
+      color: var(--TITLE);
+      font-family: 'Cabin';
+      display: flex;
+      flex-direction: column;
+      background-color: transparent;
+    }   
+  .Start .hel {
+      font-size: 48px;
+  }
+  .hel{
+    font-size: 20px;
+  }
+  .js-background{
+    left: 0;
+    z-index: -1;
+  }
+  .amt {
+    padding-left: 9%;
+  }
+
+  .Works2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+  gap: 10%;
+  }
+
+  .Works2 img {
+  width: 45%; 
+  }
+
+
+  .AboutMe {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .AboutMeImg{
+    width: 70%;
+  }
+  .Me{
+    width: 100%;
+  }
+
+  .skills_wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+
+  .skill {
+    font-size: 24px;
+  }
+
+  .skills_other {
+    gap: 20px;
+  }
+
+  .skills_failed {
+    text-align: center;
+  }
+
+  .author,
+  .comment {
+    font-size: 28px;
+  }
+  .fimg img, svg{
+    height: 40px;
+    width: fit-content;
+  }
+  .fimg{
+    gap: 27px;
+  }  
+  .fel{
+    position: static;
+    font-size: 20px;
+    padding-top: 0;
+  }
+  .skill {
+    grid-column: 1/2 !important;
+  }
+  .Review, .Review2{
+    width:calc(100% - 2 * 10px);
+    margin-left: 10px;
+    margin-right: 10px;
+  }  
+}
