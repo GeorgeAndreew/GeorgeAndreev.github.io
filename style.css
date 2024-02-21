@@ -27,7 +27,7 @@ header{
     align-items: center;    
     position:fixed;
     top: 0;
-    padding: 45px 60px;
+    padding: 26px 46px;
 }
 footer{
     width: 100%;
@@ -51,7 +51,7 @@ footer{
     width: 100%;
 }
 .navigation{    
-    gap: 244px;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -60,7 +60,8 @@ footer{
 .ht{
     font-size: 48px;
     font-weight: 400;
-    margin: 0;
+    flex-shrink: 0;
+    margin-right: 86px;
     background-color: var(--SECOND);
 }
 .hel{
@@ -118,6 +119,7 @@ text-decoration: none;
     width: 735px;
     height: 860px;
     border-radius: 26px;
+    object-fit: cover;
 }
 .MySkills{
     background-color: var(--SECOND);
@@ -171,6 +173,9 @@ text-decoration: none;
     font-family: 'Cabin';
     background-color: var(--TXTSEC);
     border-radius: 30px;   
+}
+.UserReviews{
+    display: none;
 }
 .Title{
     padding-top: 80px;
