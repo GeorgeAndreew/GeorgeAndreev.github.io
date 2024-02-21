@@ -181,6 +181,7 @@ text-decoration: none;
     font-weight: 400;
     transform: rotate(-1deg);
     width: fit-content;
+    z-index: 1;
 }
 .Title2{
     color: var(--TITLE);

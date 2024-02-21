@@ -114,6 +114,9 @@
 
 
 @media screen and (max-width: 450px) {
+    .skill {
+    grid-column: 1/2 !important;
+  }
   footer {
     padding: 10px 7px;
     height: auto;
