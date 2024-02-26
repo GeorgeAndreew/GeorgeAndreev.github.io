@@ -364,3 +364,19 @@ text-decoration: none;
     top: -150px;
 }
 
+.glitch{
+    position: fixed;
+    z-index: 10;
+    display: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.glitch-box {
+    position: absolute;
+    min-width: 50px;
+    min-height: 20px;
+    opacity: 0;
+    transition: 2.6s ease-in-out ;
+}
