@@ -28,6 +28,10 @@ header{
     position:fixed;
     top: 0;
     padding: 26px 46px;
+    transition: all 0.3s;
+}
+.change{
+    background-color: var(--MAIN);
 }
 footer{
     width: 100%;
@@ -62,7 +66,6 @@ footer{
     font-weight: 400;
     flex-shrink: 0;
     margin-right: 86px;
-    background-color: var(--SECOND);
 }
 .hel{
 font-size: 28px;

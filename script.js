@@ -46,3 +46,13 @@ document.querySelector('.skills_failed').addEventListener('click', function() {
         block.style.display = 'none'
     }, GLITCH_TIME*1000)
 })
+
+const header = document.querySelector('header')
+window.addEventListener('scroll', function() {
+    if (this.window.scrollY > 0) {
+        header.classList.add('change')
+    }
+    else {
+        header.classList.remove('change')
+    }    
+})
