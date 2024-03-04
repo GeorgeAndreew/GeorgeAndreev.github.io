@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root{
-    --TITLE: #FFFFFF;
-    --MAIN: #191F22;
-    --SECOND: #212121;
-    --LINE1:#BB6D1D;
-    --LINE2:#E64A19;
-    --TXTSEC:#757575;
+    --TITLE: #212121;
+    --MAIN: #F5F5F5;
+    --SECOND: #FFFFFF;
+    --LINE1:#1C9C75;
+    --LINE2:#1C9C75;
+    --TXTSEC:#FFFFFF;
 }
 *{
     margin: 0;
@@ -32,7 +32,7 @@ header{
 footer{
     width: 100%;
     height: 100px;
-    color: var(--TITLE);
+    color: var(--SECOND);
     background-color: var(--SECOND);
     font-family: 'Cabin';
     display: flex;
@@ -76,7 +76,7 @@ text-decoration: none;
 .fel{
     font-size: 28px;
     font-weight: 400;
-    color: var(--TXTSEC);
+    color: var(--TITLE);
 
 }
 
@@ -88,7 +88,7 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     position: relative;
-    background: #1f272f;
+    background: var(--SECOND);
 }
 .js-background{
     position: absolute;
@@ -247,12 +247,12 @@ text-decoration: none;
 .skill {
     background: var(--LINE2);
     border-radius: 20px;
-    padding: 10px;
+    padding: 22px;
     margin-left: 15px;
     margin-right: 15px;
     color: var(--TITLE);
     font-family: 'Montserrat Medium';
-    font-size: 34px;
+    font-size: 35px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: center;
