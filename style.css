@@ -55,7 +55,7 @@ footer{
     width: 100%;
 }
 .navigation{    
-    width: 100%;
+    width: 40%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -66,6 +66,10 @@ footer{
     font-weight: 400;
     flex-shrink: 0;
     margin-right: 86px;
+}
+.ctb{
+    position: relative;
+    display: none;
 }
 .hel{
 font-size: 28px;
